@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-style: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common */
+.main-content {
+  width: 1170px;
+  max-width: calc(100vw - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+/* header */
+.header .main-content {
+  align-items: center;
+}
+
+.fixed {
+  display: flex;
+  position: sticky;
+  z-index: 1;
+  top: -40px;
+}
+
+.header .body {
+  margin-top: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav li a,
+.header .action .btn-in {
+  color: #2f3a3b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav .list {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav a {
+  display: flex;
+}
+
+.header ul .active {
+  font-weight: 600;
+}
+
+.header ul:nth-child(1) {
+  margin-left: 235px;
+}
+
+.header ul li {
+  padding: 8px 19.5px;
+}
+
+.header .action {
+  margin-left: auto;
+}
+
+.header .action .btn-in {
+  padding: 12px;
+}
+
+.header .action .btn-up {
+  padding: 12px 24px;
+  color: #1ebfc1;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+
+/* hero */
+.hero .content {
+  display: flex;
+  padding: 50px 0 79px;
+}
+.main-hero {
+  margin-top: 50px;
+  margin-bottom: 79px;
+}
+
+.hero .info {
+  width: 45%;
+}
+.hero .location {
+  width: 55%;
+}
+
+.hero .content .img-hero {
+  width: 100%;
+  object-fit: cover;
+  height: 631px;
+}
+
+.hero .location {
+  position: relative;
+}
+
+.hero .abc {
+  margin-top: 143px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.hero h1.title {
+  margin-top: 18px;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+.hero .info p.desc {
+  margin-top: 46px;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
+.hero .row {
+  margin-top: 52px;
+  align-items: center;
+}
+
+.hero .btn {
+  margin-right: 50px;
+  padding: 20px 41px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .btn-2 {
+  padding: 13px 17px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.hero .location .local-1 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 149px;
+  left: -40px;
+  padding: 20px 17.5px;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .location .local-1 p {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  width: 55px;
+  height: 30px;
+}
+
+.hero .location .rec {
+  position: absolute;
+  width: 28px;
+  height: 4px;
+  top: 45px;
+  left: 22px;
+}
+/* schedules */
+.schedules {
+  position: absolute;
+  top: 453px;
+  left: -62px;
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.schedules span {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.schedules .Ratio li {
+  width: 74px;
+  height: 6px;
+  background: #edf1f5;
+  margin: 12px 25px;
+  border-radius: 3px;
+}
+
+.schedules .Ratio li.sub-ratio::before {
+  position: absolute;
+  content: "";
+  width: calc((74px * var(--ratio, 30)) / 100);
+  height: 6px;
+  background: #fb9899;
+  border-radius: 3px;
+}
+
+.schedules .Ratio li:last-of-type {
+  width: 26px;
+  height: 6px;
+  margin: 16px 49px 23px;
+}
+
+/* students */
+
+.hero .students {
+  display: flex;
+  position: absolute;
+  top: 517px;
+  right: 35px;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .students span {
+  display: block;
+  align-items: center;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 17px;
+  margin-left: 35px;
+}
+
+.hero .students img {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  margin-left: -7px;
+}
+
+.hero .students .row {
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+/* features */
+
+.features h2.title {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.features .content p.desc {
+  margin-top: 19px;
+  width: 525px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
+.features .row {
+  align-items: center;
+}
+
+.features .row a {
+  margin-left: auto;
+  color: #1ebfc1;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.features .content .column {
+  width: 30.6%;
+}
+
+.features .content .column .img {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 393px;
+  position: relative;
+}
+
+.features .row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .content .circle-mini {
+  width: 6px;
+  height: 6px;
+}
+
+.features .column h3.title {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.features strong {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.features .sp-desc .one {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+}
+
+.features .sp-desc .two,
+.features .sp-desc .three {
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+}
+
+.features .row-mini {
+  align-items: center;
+  gap: 10px;
+}
+
+.features .row-mini img {
+  align-items: center;
+}
+
+.features .sp-desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  /* background: #fff; */
+  background: orange;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
