@@ -37,6 +37,8 @@ a {
   position: sticky;
   z-index: 1;
   top: -40px;
+  background: #fff;
+  padding-bottom: 5px;
 }
 
 .header .body {
