@@ -101,8 +101,8 @@ a {
 /* hero */
 .hero .content {
   display: flex;
-  padding: 50px 0 79px;
 }
+
 .main-hero {
   margin-top: 50px;
   margin-bottom: 79px;
@@ -287,8 +287,71 @@ a {
 }
 
 /* features */
+.features {
+  margin-top: 130px;
+}
+
+.features .content {
+  width: 1024px;
+}
 
 .features h2.title {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 4.2rem;
+  width: 577px;
+  font-weight: 700;
+  margin: 18px 0;
+  line-height: 1.34;
+}
+
+.features p.desc {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 590px;
+}
+
+.features .row {
+  margin-top: 80px;
+  gap: 200px;
+}
+
+.features h3.title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.features .sub-1 {
+  width: 168px;
+}
+
+.features .sub-2,
+.features .sub-3 {
+  width: 223px;
+}
+
+.features .sub-desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69;
+  margin-top: 16px;
+}
+
+/* courses */
+
+.courses {
+  margin-top: 130px;
+}
+
+.courses h2.title {
   color: #0d1111;
   font-family: Poppins;
   font-size: 4.2rem;
@@ -296,7 +359,7 @@ a {
   margin-top: 18px;
 }
 
-.features .content p.desc {
+.courses .content p.desc {
   margin-top: 19px;
   width: 525px;
   color: #767e7e;
@@ -306,27 +369,27 @@ a {
   line-height: 1.78;
 }
 
-.features .row {
+.courses .row {
   align-items: center;
 }
 
-.features .row a {
+.courses .row a {
   margin-left: auto;
   color: #1ebfc1;
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
 }
 
-.features .content .column {
+.courses .content .column {
   width: 30.6%;
   position: relative;
 }
 
-.features .content .column .img {
+.courses .content .column .img {
   display: flex;
   object-fit: cover;
   width: 100%;
@@ -334,17 +397,17 @@ a {
   position: relative;
 }
 
-.features .row-2 {
+.courses .row-2 {
   display: flex;
   justify-content: space-between;
 }
 
-.features .content .circle-mini {
+.courses .content .circle-mini {
   width: 6px;
   height: 6px;
 }
 
-.features .column h3.title {
+.courses .column h3.title {
   color: #0d1111;
   font-family: Poppins;
   font-size: 2.2rem;
@@ -352,46 +415,42 @@ a {
   margin: 18px 0 16px;
 }
 
-.features strong {
+.courses strong {
   color: #0d1111;
   font-family: Poppins;
   font-size: 2.2rem;
   font-weight: 700;
 }
 
-.features .sp-desc .one {
+.courses .sp-desc .one {
   color: #767e7e;
   font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 1.6rem;
   font-weight: 400;
-  line-height: normal;
   margin-top: 16px;
   margin-bottom: 6px;
 }
 
-.features .sp-desc .two,
-.features .sp-desc .three {
+.courses .sp-desc .two,
+.courses .sp-desc .three {
   color: #9da6a5;
   font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
+  font-size: 1.4rem;
   font-weight: 400;
-  line-height: normal;
   margin-top: 6px;
 }
 
-.features .row-mini {
+.courses .row-mini {
   align-items: center;
   gap: 10px;
 }
 
-.features .row-mini img {
+.courses .row-mini img {
   align-items: center;
   margin-top: 6px;
 }
 
-.features .sp-desc {
+.courses .sp-desc {
   padding-left: 25px;
   position: absolute;
   bottom: -155px;
@@ -402,4 +461,165 @@ a {
   border-radius: 8px;
   background: #fff;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* number */
+.number {
+  padding-top: 410px;
+  padding-bottom: 264px;
+}
+
+.number strong {
+  color: #0d1111;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.number .main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number .content {
+  width: 862px;
+  justify-content: space-between;
+}
+
+.number .content .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number .content .column p {
+  margin-top: 11px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* feedback */
+
+.feedback .content {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.feedback .pain {
+  margin-top: 37px;
+}
+
+.feedback .talk-courses {
+  margin-top: 27px;
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.feedback .sub-desc {
+  margin: 33px 0 52px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.feedback .sub-desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.feedback .row {
+  gap: 30px;
+}
+
+.feedback .row .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+}
+
+.feedback .embay {
+  position: relative;
+}
+
+.feedback .embay .img-one {
+  position: absolute;
+  top: 100px;
+  left: 310px;
+}
+
+.feedback .embay .img-one .one {
+  width: 235px;
+  height: 235px;
+}
+
+.feedback .embay img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .embay .img-two {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+
+.feedback .embay .img-two .two {
+  width: 92px;
+  height: 92px;
+}
+
+.feedback .embay .img-three {
+  position: absolute;
+  top: 20px;
+  left: 580px;
+}
+
+.feedback .embay .img-three .three {
+  width: 110px;
+  height: 110px;
+}
+
+.feedback .embay .img-four {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+.feedback .embay .img-four .four {
+  width: 78px;
+  height: 78px;
+}
+
+.feedback .embay .img-five {
+  position: absolute;
+  bottom: -50px;
+  left: 250px;
+}
+
+.feedback .embay .img-five .five {
+  width: 78px;
+  height: 78px;
+}
+
+.feedback .embay .img-six {
+  position: absolute;
+  bottom: 0;
+  left: 580px;
+}
+
+.feedback .embay .img-six .six {
+  width: 78px;
+  height: 78px;
 }
