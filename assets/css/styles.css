@@ -321,6 +321,7 @@ a {
 
 .features .content .column {
   width: 30.6%;
+  position: relative;
 }
 
 .features .content .column .img {
@@ -346,6 +347,7 @@ a {
   font-family: Poppins;
   font-size: 2.2rem;
   font-weight: 700;
+  margin: 18px 0 16px;
 }
 
 .features strong {
@@ -363,6 +365,7 @@ a {
   font-weight: 400;
   line-height: normal;
   margin-top: 16px;
+  margin-bottom: 6px;
 }
 
 .features .sp-desc .two,
@@ -383,18 +386,18 @@ a {
 
 .features .row-mini img {
   align-items: center;
+  margin-top: 6px;
 }
 
 .features .sp-desc {
+  padding-left: 25px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -155px;
+  left: 17px;
   display: block;
   width: 325px;
   height: 195px;
   border-radius: 8px;
-  /* background: #fff; */
-  background: orange;
+  background: #fff;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
-
